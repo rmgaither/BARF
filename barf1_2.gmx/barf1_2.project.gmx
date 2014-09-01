@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_test</sprite>
+    <sprite>sprites\spr_hand</sprite>
     <sprite>sprites\spr_rope</sprite>
   </sprites>
   <backgrounds name="background">
@@ -20,12 +21,13 @@
     <object>objects\obj_ropeshoulder</object>
     <object>objects\obj_elbow</object>
     <object>objects\obj_ropeelbow</object>
+    <object>objects\obj_food</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41883.1051967477</constant>
+    <constant name="GM_build_date">41883.2255631018</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
