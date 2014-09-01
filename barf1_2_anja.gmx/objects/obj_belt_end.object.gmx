@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>x = room_width;
-y = 16;
+y = 10;
 </string>
           </argument>
         </arguments>
@@ -45,7 +45,7 @@ y = 16;
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>0,0</point>
+    <point>16,16</point>
     <point>16,16</point>
   </PhysicsShapePoints>
 </object>

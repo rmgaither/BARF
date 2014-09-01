@@ -54,11 +54,10 @@
     <instance objName="obj_shoulder" x="704" y="416" name="inst_513296E6" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_elbow" x="768" y="288" name="inst_333FDCCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hand" x="704" y="160" name="inst_4921190D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_belt" x="224" y="160" name="inst_3359CD8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_belt" x="320" y="128" name="inst_3359CD8B" locked="0" code="" scaleX="11.1000003814697" scaleY="1.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_belt_start" x="96" y="256" name="inst_81AB49E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_belt_end" x="320" y="288" name="inst_F1311D6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="448" y="160" name="inst_02C54238" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sushi1" x="320" y="32" name="inst_B5DCE4BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi1" x="384" y="32" name="inst_B5DCE4BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
