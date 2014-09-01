@@ -27,9 +27,20 @@
             <kind>1</kind>
             <string>// define properties
 
-spd = 100;
+x = obj_ropeshoulder.x;
 
-physics_joint_distance_create(self, obj_elbow, x,y, obj_elbow.x, obj_elbow.y, true);
+spd = 100;
+next_seg = self;
+offset = distance_to_object(obj_ropeshoulder) div 10;
+
+repeat(offset)
+    {
+    last_seg = next_seg;
+    next_seg = instance_create(x, y + offset, obj_ropeelbow)
+    physics_joint_rope_create(last_seg, next_seg, last_seg.x, last_seg.y, next_seg.x, next_seg.y, offset + 2, true);
+    }
+
+physics_joint_rope_create(next_seg, obj_ropeelbow, next_seg.x, next_seg.y, obj_ropeelbow.x, obj_ropeelbow.y, offset + 2, true);
 
 
 </string>
