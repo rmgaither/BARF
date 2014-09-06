@@ -3,7 +3,7 @@
   <spriteName>spr_sushi1</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-10</depth>
+  <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -29,12 +29,10 @@
 phy_position_y = -10;
 physics_apply_impulse(x, y, 0, 6);*/
 
-/*
-phy_position_x = 50;
-phy_position_y = 50;*/
-x = 50;
-y = 50;
-//physics_apply_impulse(x, y, 6, 0);
+
+phy_position_x = - 10;
+phy_position_y = 32;
+physics_apply_impulse(x, y, 6, 0);
 alreadymoving = 0;
 </string>
           </argument>
@@ -59,108 +57,59 @@ alreadymoving = 0;
           <argument>
             <kind>1</kind>
             <string>//vectormath
+beltspd = 5;
+beltangle = - other.image_angle;
 
-belt = instance_place(x, y, obj_belt);
-if belt != noone
-   {    
-    beltspd = belt.spd;
-    beltangle = belt.image_angle;
-    
-    if beltangle = 0
-        {
-        beltx = beltspd;
-        belty = 0;
-        }
-    else if beltangle &gt; 0 &amp;&amp; beltangle &lt; 90
-        {
-        angle = beltangle
-        beltx = beltspd * darccos(angle);
-        belty =  - (sqrt(sqr(beltspd) - sqr(beltx)));
-        }
-    else if beltangle = 90
-        {
-        beltx = 0;
-        belty = - beltspd;
-        }
-    else if beltangle &gt; 90 &amp;&amp; beltangle &lt; 180
-        {
-        angle = 180 - beltangle
-        beltx = - (beltspd * darccos(angle));
-        belty = - (sqrt(sqr(beltspd) - sqr(beltx)));
-        }
-    else if beltangle = 180
-        {
-        beltx = -beltspd;
-        belty = 0;
-        }
-    else if beltangle &gt; 180 &amp;&amp; beltangle &lt; 270
-        {
-        angle = beltangle - 180;
-        beltx =  - (beltspd * darccos(angle));
-        belty = sqrt(sqr(beltspd) - sqr(beltx));
-        }
-    else if beltangle = 270
-        {
-        beltx = 0;
-        belty = beltspd;
-        }
-    else if beltangle &gt; 270 &amp;&amp; beltangle &lt; 360
-        {
-        angle = 360 - beltangle;
-        beltx = beltspd * darccos(angle);
-        belty = sqrt(sqr(beltspd) - sqr(beltx));
-        }
-
-        physics_apply_force(x, y, beltx, belty);
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>up = keyboard_check_direct(vk_up);
-down = keyboard_check_direct(vk_down);
-left = keyboard_check_direct(vk_left);
-right = keyboard_check_direct(vk_right);
-
-spd = .5;
-
-dir_x = 0;
-dir_y = 0;
-
-if up
+if beltangle = 0
     {
-    dir_y -= spd;
+    beltx = beltspd;
+    belty = 0;
     }
-if down
+else if beltangle &gt; 0 &amp;&amp; beltangle &lt; 90
     {
-    dir_y += spd;
+    angle = beltangle
+    beltx = beltspd * darccos(angle);
+    belty =  - (sqrt(sqr(beltspd) - sqr(beltx)));
     }
-if left
+else if beltangle = 90
     {
-    dir_x -= spd;
+    beltx = 0;
+    belty = - beltspd;
     }
-if right
+else if beltangle &gt; 90 &amp;&amp; beltangle &lt; 180
     {
-    dir_x += spd;
+    angle = 180 - beltangle
+    beltx = - (beltspd * darccos(angle));
+    belty = - (sqrt(sqr(beltspd) - sqr(beltx)));
     }
-          
-physics_apply_impulse(x,y,dir_x,dir_y);
+else if beltangle = 180
+    {
+    beltx = -beltspd;
+    belty = 0;
+    }
+else if beltangle &gt; 180 &amp;&amp; beltangle &lt; 270
+    {
+    angle = beltangle - 180;
+    beltx =  - (beltspd * darccos(angle));
+    belty = sqrt(sqr(beltspd) - sqr(beltx));
+    }
+else if beltangle = 270
+    {
+    beltx = 0;
+    belty = beltspd;
+    }
+else if beltangle &gt; 270 &amp;&amp; beltangle &lt; 360
+    {
+    angle = 360 - beltangle;
+    beltx = beltspd * darccos(angle);
+    belty = sqrt(sqr(beltspd) - sqr(beltx));
+    }
+
+
+if place_meeting(x, y, obj_belt) 
+    {
+    physics_apply_force(x, y, beltx, belty);
+    }
 </string>
           </argument>
         </arguments>
@@ -183,19 +132,21 @@ physics_apply_impulse(x,y,dir_x,dir_y);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*
+            <string>
 
-beltspd = 2;
-
-
+//beltspd = 0.5;
 
 
-physics_apply_impulse(x, y, lengthdir_x(beltspd, other.image_angle), 
-                            lengthdir_y(beltspd, other.image_angle));
+
+
+/*physics_apply_impulse(x, y, lengthdir_x(beltspd, point_direction(obj_belt_start.x, obj_belt_start.y,        //x, y where impulse will be applied, direction of vector(x, y)
+                                                                 obj_belt_end.x, obj_belt_end.y)), 
+                            lengthdir_y(beltspd, point_direction(obj_belt_start.x, obj_belt_start.y, 
+                                                                obj_belt_end.x, obj_belt_end.y)));*/
                                                                 
 //physics_apply_impulse(x, y, other.y, 0);
 
-*/
+
 </string>
           </argument>
         </arguments>

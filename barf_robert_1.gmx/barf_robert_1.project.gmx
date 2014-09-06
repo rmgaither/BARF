@@ -8,9 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_test</sprite>
     <sprite>sprites\spr_rope</sprite>
-    <sprite>sprites\spr_belt</sprite>
-    <sprite>sprites\spr_sushi1</sprite>
-    <sprite>sprites\spr_belt_move</sprite>
+    <sprite>sprites\spr_hand</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background1</background>
@@ -18,19 +16,17 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_hand</object>
-    <object>objects\obj_phys</object>
+    <object>objects\obj_ropehand</object>
     <object>objects\obj_shoulder</object>
+    <object>objects\obj_ropeshoulder</object>
     <object>objects\obj_elbow</object>
-    <object>objects\obj_belt</object>
-    <object>objects\obj_sushi1</object>
-    <object>objects\obj_belt_start</object>
-    <object>objects\obj_belt_end</object>
+    <object>objects\obj_ropeelbow</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41888.3344924421</constant>
+    <constant name="GM_build_date">41888.4147090509</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
