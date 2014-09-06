@@ -28,7 +28,11 @@
   </rooms>
   <constants number="2">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <constant name="GM_build_date">41883.2255631018</constant>
+=======
+    <constant name="GM_build_date">41883.1099131018</constant>
+>>>>>>> origin/master
 =======
     <constant name="GM_build_date">41883.1099131018</constant>
 >>>>>>> origin/master
