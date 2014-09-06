@@ -106,7 +106,7 @@ else if beltangle &gt; 270 &amp;&amp; beltangle &lt; 360
     }
 
 
-if instance_place(x, y, obj_belt) 
+if place_meeting(x, y, obj_belt) 
     {
     physics_apply_force(x, y, beltx, belty);
     }
