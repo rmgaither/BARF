@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1024</width>
   <height>768</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>4</vsnap>
+  <hsnap>4</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="obj_hand" xview="0" yview="0" wview="200" hview="100" xport="0" yport="0" wport="1024" hport="768" hborder="500" vborder="370" hspeed="10" vspeed="10"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="200" hview="100" xport="0" yport="0" wport="1024" hport="768" hborder="500" vborder="370" hspeed="10" vspeed="10"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -51,11 +51,81 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_shoulder" x="768" y="416" name="inst_513296E6" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_elbow" x="768" y="288" name="inst_333FDCCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hand" x="768" y="160" name="inst_4921190D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ropehand" x="224" y="352" name="inst_E21B2F5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ropeshoulder" x="224" y="416" name="inst_3088F97C" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="448" y="256" name="inst_A6CEB3EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="604" y="408" name="inst_E2516D10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="448" y="352" name="inst_FB3F3E88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ropehand" x="500" y="560" name="inst_E21B2F5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_head" x="448" y="704" name="inst_965A96E2" locked="0" code="" scaleX="1.75" scaleY="1.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="128" y="224" name="inst_AD61EAD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="320" y="320" name="inst_F6741BD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="96" y="352" name="inst_4FE6F7B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="352" y="448" name="inst_6A93E633" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="768" y="376" name="inst_BDB28FD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="688" y="444" name="inst_3D97D0F4" locked="0" code="" scaleX="0.439999997615814" scaleY="4.8899998664856" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="256" y="224" name="inst_603630CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="416" y="160" name="inst_2A90E19B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="352" y="320" name="inst_8E803DDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="320" y="128" name="inst_532E450D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="224" y="128" name="inst_1D676439" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="160" y="128" name="inst_8B0B7CCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="128" y="192" name="inst_7DC5688D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="32" y="256" name="inst_A2F57B1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="32" y="128" name="inst_94F77842" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="64" y="192" name="inst_6794116E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="64" y="256" name="inst_EF4D7105" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="128" y="320" name="inst_796A37D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="856" y="456" name="inst_96735013" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="320" y="320" name="inst_6F76A645" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="384" y="320" name="inst_5CDEE9ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="736" y="328" name="inst_278B86C9" locked="0" code="" scaleX="2.22000002861023" scaleY="1.44000005722046" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="352" y="96" name="inst_84A1D022" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="288" y="128" name="inst_B8E86965" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="288" y="224" name="inst_ED0029D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="712" y="540" name="inst_9BAE0564" locked="0" code="" scaleX="7.67000007629395" scaleY="7.67000007629395" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="688" y="368" name="inst_80E0DF22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="352" y="160" name="inst_14F441E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="256" y="160" name="inst_154FACF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="160" y="160" name="inst_31073B74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="128" y="224" name="inst_D03E0625" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="580" y="404" name="inst_1B86AD9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="192" y="192" name="inst_3C132C18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="192" y="128" name="inst_020C45D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="744" y="452" name="inst_DF46D674" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="64" y="160" name="inst_A9B8B247" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="64" y="96" name="inst_9F023ABB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="96" y="160" name="inst_1E0CB6AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="64" y="224" name="inst_C8BC9121" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="96" y="96" name="inst_9DEFE812" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="160" y="64" name="inst_023BCCDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="256" y="64" name="inst_4F371D68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="288" y="192" name="inst_D21AEFEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="864" y="312" name="inst_BDE930AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="256" y="320" name="inst_7A284FAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="160" y="352" name="inst_28A6F756" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="96" y="384" name="inst_E280D120" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="32" y="320" name="inst_2F7C8CFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="668" y="372" name="inst_E12E0311" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="560" y="432" name="inst_765754FA" locked="0" code="" scaleX="3.22000002861023" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="288" y="288" name="inst_0541EC57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="416" y="192" name="inst_04B96B51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="416" y="192" name="inst_8E6DD11F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="760" y="328" name="inst_DD44410F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="904" y="368" name="inst_BB07C14C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="352" y="384" name="inst_CAE77A1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="704" y="456" name="inst_58A05890" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="600" y="428" name="inst_FF43A76B" locked="0" code="" scaleX="2.32999992370605" scaleY="1.44000005722046" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="480" y="416" name="inst_F88A8103" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="416" y="448" name="inst_86961E3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="384" y="416" name="inst_0EC9273E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="704" y="240" name="inst_96409EBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="576" y="372" name="inst_B10F3DB6" locked="0" code="" scaleX="4.40000009536743" scaleY="3.64000010490417" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="480" y="416" name="inst_B8859A02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="384" y="416" name="inst_A230B2B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="712" y="420" name="inst_C6F239C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="708" y="388" name="inst_ACB20DC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sushi" x="572" y="336" name="inst_4994B4A3" locked="0" code="" scaleX="2.32999992370605" scaleY="2.32999992370605" colour="4294967295" rotation="0"/>
+    <instance objName="obj_body" x="452" y="700" name="inst_B9697768" locked="0" code="" scaleX="1.29999995231628" scaleY="1.29999995231628" colour="4294967295" rotation="180"/>
+    <instance objName="obj_block" x="436" y="700" name="inst_EC362C7D" locked="0" code="" scaleX="8.10000038146973" scaleY="4.69999980926514" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
