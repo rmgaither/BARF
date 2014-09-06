@@ -25,12 +25,13 @@
     <object>objects\obj_sushi1</object>
     <object>objects\obj_belt_start</object>
     <object>objects\obj_belt_end</object>
+    <object>objects\object8</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41883.1254672569</constant>
+    <constant name="GM_build_date">41888.2790537384</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
